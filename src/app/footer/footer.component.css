@@ -1,0 +1,19 @@
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffead1;
+    justify-content: center;
+    border: solid;
+    border-color: #d24e01;
+}
+
+.social-links a {
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 70px;
+    height: 70px;
+}

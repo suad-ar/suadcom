@@ -1,0 +1,56 @@
+@import url(https://fonts.cdnfonts.com/css/futura-maxi-cg-bold);
+@import url(https://fonts.cdnfonts.com/css/im-fell-french-canon-2);
+
+
+.introbar {
+    padding: 10px 50px;
+    background-color: #ffead1;
+    border: solid;
+    border-color: #d24e01;
+}
+
+.content-text {
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #d24e01;
+    list-style: none;
+}
+
+.content-subtext {
+    font-family: 'IM FELL French Canon', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #7c9d71;
+    list-style: none;
+}
+
+button {
+    
+    background-color: #7c9d71; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    align-items: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    margin: auto;
+
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.mainmenu li:hover{
+    cursor: pointer;
+}
+
+
+.body {
+    padding: 30px;
+}

@@ -1,0 +1,146 @@
+@import url(https://fonts.cdnfonts.com/css/futura-maxi-cg-bold);
+@import url(https://fonts.cdnfonts.com/css/im-fell-french-canon-2);
+
+.introbar {
+    padding: 10px 50px;
+    background-color: #ffead1;
+    border: solid;
+    border-color: #d24e01;
+}
+
+.bar-heading {
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    text-align: center;
+    color: #d24e01;
+    padding: 30px;
+    
+}
+
+.servicebar {
+    display: flex;
+    padding: 70px;
+   
+    
+}
+
+.servicebar img {
+    width: 400px;
+    height: 450px;
+    padding: 20px;
+}
+
+
+.content-text {
+
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #d24e01;
+    list-style: none;
+}
+
+.content-subtext {
+    
+    font-family: 'IM FELL French Canon', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #7c9d71;
+    list-style: none;
+}
+
+.sidebyside {
+    display: flex;
+    background-color: #ffff;
+    padding: 50px;
+
+}
+
+.foot-heading {
+
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #d24e01;
+    
+    
+}
+
+.foot-subtext {
+    
+    font-family: 'IM FELL French Canon', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #7c9d71;
+    
+}
+
+.foot-text {
+    padding: 150px 0px;
+  
+}
+
+button {
+    
+    background-color: #7c9d71; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    align-items: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    margin: auto;
+
+}
+
+
+.companybar {
+    padding: 100px 100px;
+    text-align: center;
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    color: #d24e01;
+    background-color: #ffead1;
+    border: solid;
+
+}
+
+.companybar p {
+    line-height: 1.6;
+}
+
+.companybar h3 {
+    color: #7c9d71;
+    padding: 50px 0px;
+}
+
+.icons li {
+    list-style-type: none;
+    padding: 50px 50px;
+    display: inline;
+}
+
+
+.icons li img {
+    width: 60px;
+}
+
+@media (max-width: 768px) {
+    .servicebar {
+        display: block;
+
+    }
+
+    .servicebar img {
+        width: 100%;
+    }
+
+    .sidebyside {
+        display: block;
+
+    }
+
+    .sidebyside img {
+        width: 100%;
+    }
+}
