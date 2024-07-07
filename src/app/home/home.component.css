@@ -13,20 +13,26 @@
     text-align: center;
     color: #d24e01;
     padding: 30px;
-    
+
 }
 
 .servicebar {
     display: flex;
     padding: 70px;
-   
-    
+
 }
 
+.sbar2 {
+    padding: 30px;
+
+}
+
+
 .servicebar img {
-    width: 400px;
+    width: 100%;
     height: 450px;
-    padding: 20px;
+
+
 }
 
 
@@ -40,7 +46,7 @@
 }
 
 .content-subtext {
-    
+
     font-family: 'IM FELL French Canon', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -61,27 +67,27 @@
     font-size: 60px;
     text-align: center;
     color: #d24e01;
-    
-    
+
+
 }
 
 .foot-subtext {
-    
+
     font-family: 'IM FELL French Canon', sans-serif;
     font-size: 20px;
     text-align: center;
     color: #7c9d71;
-    
+
 }
 
 .foot-text {
     padding: 150px 0px;
-  
+
 }
 
 button {
-    
-    background-color: #7c9d71; 
+
+    background-color: #7c9d71;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -114,25 +120,27 @@ button {
     padding: 50px 0px;
 }
 
-.icons li {
-    list-style-type: none;
-    padding: 50px 50px;
-    display: inline;
+
+
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+
 }
 
+.icon-row img {
+    width: 50px;
 
-.icons li img {
-    width: 60px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .servicebar {
         display: block;
-
     }
 
     .servicebar img {
         width: 100%;
+        height: auto;
     }
 
     .sidebyside {
@@ -143,4 +151,59 @@ button {
     .sidebyside img {
         width: 100%;
     }
+
+}
+
+@media (max-width: 768px) {
+    .servicebar {
+        display: block;
+
+    }
+
+    .servicebar img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sidebyside {
+        display: block;
+
+    }
+
+    .sidebyside img {
+        width: 100%;
+    }
+
+    .icons li {
+        list-style-type: none;
+        padding: 50px 50px;
+        display: inline;
+    }
+
+
+    .icons li img {
+        width: 60px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .servicebar {
+        padding: 20px;
+    
+    }
+
+    .companybar {
+        padding: 50px 50px;
+    }
+    
+    .sidebyside {
+        padding: 10px;
+    }
+
+    .foot-text {
+        padding: 100px 0px;
+    
+    }
+
 }

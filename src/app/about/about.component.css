@@ -51,3 +51,9 @@
         width: 100%;
     }
 }
+
+@media (max-width: 425px) {
+    .sidebyside {
+       padding: 20px;
+    }
+}

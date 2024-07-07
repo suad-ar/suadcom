@@ -9,9 +9,16 @@
     border-color: #d24e01;
 }
 
+.bar-heading {
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    text-align: center;
+    color: #d24e01;
+    padding: 30px; 
+}
+
 .content-text {
     font-family: 'Futura Maxi CG Bold', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     color: #d24e01;
     list-style: none;
@@ -22,6 +29,17 @@
     font-size: 30px;
     text-align: center;
     color: #7c9d71;
+    list-style: none;
+}
+
+
+
+.content-text {
+
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #d24e01;
     list-style: none;
 }
 
