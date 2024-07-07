@@ -8,6 +8,12 @@
 
 }
 
+.sidetext {
+    padding: 120px 0px;
+    
+
+}
+
 .bar-heading {
     font-family: 'Futura Maxi CG Bold', sans-serif;
     text-align: center;
@@ -49,6 +55,10 @@
 
     .sidebyside img {
         width: 100%;
+    }
+
+    .sidetext {
+        padding: 20px 0px;
     }
 }
 
