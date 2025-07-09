@@ -1,0 +1,75 @@
+<div class="header">
+    <div class="suad-logo">
+        <div class="top-left">
+            <h1 class="logo"> suad ar</h1>
+            <p class="logosubtext"> ENTREPRENEUR, MARKETER, DEVELOPER </p>
+        </div>
+    </div>
+
+    <div class="menu-buttons">
+        <ul class="mainmenu">
+            <li><a routerLink="/">HOME</a></li>
+            <li><a routerLink="/about">ABOUT</a></li>
+            <li><a routerLink="/contact">CONTACT</a></li>
+        </ul>
+    </div>
+</div>
+
+.menu-buttons{
+    margin-left: auto;
+}
+
+#d24e01;
+
+.logo {
+    text-align: left;
+    padding:0px;
+    margin: 10px;
+    font-family: 'Great Vibes';                          
+    font-size: 70px;
+    color: #d24e01;
+    
+}
+
+.logosubtext {
+    margin-left: 10px;
+    font-family: 'Futura Maxi CG Bold', sans-serif;
+    color: #728C69;                                      
+    font-size: 10px;
+}
+
+.mainmenu{
+    list-style-type: none;
+    padding: 30px 70px;
+    font-family: 'Gulyana', sans-serif;
+    color:#728C69;
+}
+
+.mainmenu li{
+    font-size: 15px;
+    display: inline;
+    margin: 10px;
+    
+}
+
+.mainmenu a{
+    text-decoration: none;
+    color: #7c9d71;
+}
+.mainmenu li:hover{
+    cursor: pointer;
+}
+
+background: linear-gradient(to bottom, #191129, #3C7055);
+
+<h4 class="subtext"> Suad is an entrepreneur, content creator and software developer and  with a passion for holistic wellness and digital innovation.
+    On an entrepreneurship journey that began in law school as a wellness enthusiast on a quest to simplify selfcare by providing affordable yet effective African skincare products.
+    Shortly after, my legal professional journey took off as a Legal Researcher at oil and gas firm Tullow Oil. 
+    Embracing the digital age and answering what seemed like a natural calling I ventured into social media management as a freelancer working with an array of companies
+    from events, to child education, skincare and legal tech. From there, i completed an intensive business and technology training program at 
+    the Meltwater Entrepreneurial School of Technology (MEST)
+     
+</h4>
+
+padding: 0px 30px;
+width: 100%;

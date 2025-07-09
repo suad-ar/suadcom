@@ -1,152 +1,204 @@
-@import url(https://fonts.cdnfonts.com/css/futura-maxi-cg-bold);
 @import url(https://fonts.cdnfonts.com/css/im-fell-french-canon-2);
+@import url(https://fonts.cdnfonts.com/css/gulyana);
+@import url(https://fonts.cdnfonts.com/css/rottering);
 
-.introbar {
-    padding: 10px 50px;
-    background-color: #ffead1;
-    border: solid;
-    border-color: #d24e01;
+
+.pp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
 }
 
-.bar-heading {
-    font-family: 'Futura Maxi CG Bold', sans-serif;
+.pp img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #d24e01;
+    object-fit: cover;
+}
+
+.header {
+    font-family: 'Gulyana', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    color: black;
+
+}
+
+.pptext {
+    font-family: 'rottering', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.pptext a {
+    color: #d24e01;
+}
+
+.pptext li:hover {
+    cursor: pointer;
+}
+
+.bartext {
+    font-family: 'Gulyana', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+
+.subheading {
+    font-family: 'rottering', sans-serif;
     text-align: center;
     color: #d24e01;
-    padding: 30px;
+    align-items: center;
+}
+
+.subtext {
+    font-family: 'rottering', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    padding: 0px 30px;
+    margin: 0px;
+    align-items: center;
+}
+
+
+.links a {
+    font-family: 'IM FELL French Canon', sans-serif;
+    font-size: 18px;
+    color: #d24e01;
+    text-align: center;
+    align-items: center;
 
 }
+
+.links1 a {
+    font-size: 28px;
+    color: #d24e01;
+}
+
+
+
+.workbar {
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
 
 .servicebar {
     display: flex;
-    padding: 70px;
-
+    justify-content: center;
+    /* Ensures columns are spaced out */
+    gap: 1rem;
+    
 }
 
-.sbar2 {
-    padding: 30px;
-    width: 100%;
-
+.sbar {
+ text-align: center;
+ 
+    /* Centers all content in the column */
 }
-
 
 .servicebar img {
-    width: 100%;
-    height: 450px;
-
-
-}
-
-
-.content-text {
-
-    font-family: 'Futura Maxi CG Bold', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #d24e01;
-    list-style: none;
-}
-
-.content-subtext {
-
-    font-family: 'IM FELL French Canon', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #7c9d71;
-    list-style: none;
-}
-
-.sidebyside {
-    display: flex;
-    background-color: #ffff;
-    padding: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #d24e01;
 
 }
 
-.foot-heading {
-
-    font-family: 'Futura Maxi CG Bold', sans-serif;
-    font-size: 60px;
-    text-align: center;
-    color: #d24e01;
 
 
+.historytext {
+    padding-bottom: 100px;
 }
 
-.foot-subtext {
 
-    font-family: 'IM FELL French Canon', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #7c9d71;
 
+.email {
+    padding: 30px;
 }
 
-.foot-text {
-    padding: 150px 0px;
 
-}
 
 button {
 
-    background-color: #7c9d71;
-    border: none;
+    background-color: #d24e01;
+    border: 5px;
     color: white;
-    padding: 15px 32px;
-    align-items: center;
+    border-radius: 20%;
+    padding: 15px 25px;
     text-decoration: none;
     display: block;
-    font-size: 16px;
-    font-family: 'Futura Maxi CG Bold', sans-serif;
+    font-size: 17px;
+    font-family: 'rottering', sans-serif;
     margin: auto;
 
 }
 
-button a{
+button a {
     text-decoration: none;
     color: white;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
 }
 
 .companybar {
     padding: 100px 100px;
     text-align: center;
-    font-family: 'Futura Maxi CG Bold', sans-serif;
+    font-family: 'Gulyana', sans-serif;
     color: #d24e01;
     background-color: #ffead1;
-    border: solid;
-
-}
-
-.companybar p {
-    line-height: 1.6;
-}
-
-.companybar h3 {
-    color: #7c9d71;
-    padding: 50px 0px;
-}
-
-
-
-.icon-row {
-    display: flex;
+    border: solid 3px #d24e01;
     justify-content: space-between;
+    padding: 0px 10px;
 
 }
 
-.icon-row img {
-    width: 50px;
+.styled-link {
+    align-items: center;
+    text-decoration: none;
+    color: #d24e01;
 
+}
+
+.companybar {
+    display: flex;
+}
+
+.companybar img {
+    width: 20%;
+    height: 50%;
+    border: 3px solid #ccc;
+
+}
+
+
+@media (max-width: 1024px) {
+    .contact {
+        padding: 0px;
+    }
+
+
+    .servicebar img {
+        width: 300px;
+        height: 300px;
+
+    }
 }
 
 @media (max-width: 900px) {
-    .servicebar {
-        display: block;
-    }
-
-    .servicebar img {
-        width: 100%;
-        height: auto;
-    }
 
     .sidebyside {
         display: block;
@@ -160,14 +212,20 @@ button a{
 }
 
 @media (max-width: 768px) {
-    .servicebar {
-        display: block;
+
+
+    .servicebar img {
+        width: 200px;
+        height: 200px;
 
     }
 
-    .servicebar img {
-        width: 100%;
-        height: auto;
+    .servicebar {
+        display: block;
+    }
+
+    .subtext {
+        font-size: 20px;
     }
 
     .sbar2 {
@@ -197,27 +255,35 @@ button a{
 
 @media (max-width: 425px) {
 
+
     .servicebar {
-        padding: 20px;
-    
+        display: block;
+        align-items: center;
+
     }
+
 
     .companybar {
         padding: 50px 50px;
     }
-    
+
     .sidebyside {
         padding: 10px;
     }
 
     .foot-text {
         padding: 50px 0px;
-    
+
     }
 
     .foot-heading {
         font-size: 40px;
 
+    }
+
+    .contact {
+        display: block;
+        padding-left: 0px;
     }
 
 }
