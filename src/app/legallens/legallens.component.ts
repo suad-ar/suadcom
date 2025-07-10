@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-lustrelabs',
+  selector: 'app-legallens',
   standalone: true,
   imports: [ RouterModule],
-  templateUrl: './lustrelabs.component.html',
-  styleUrl: './lustrelabs.component.css'
+  templateUrl: './legallens.component.html',
+  styleUrl: './legallens.component.css'
 })
-export class LustrelabsComponent {
+export class LegallensComponent {
 
 }

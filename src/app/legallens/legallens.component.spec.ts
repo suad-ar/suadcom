@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SansanaComponent } from './sansana.component';
+import { LegallensComponent } from './legallens.component';
 
-describe('SansanaComponent', () => {
-  let component: SansanaComponent;
-  let fixture: ComponentFixture<SansanaComponent>;
+describe('LegallensComponent', () => {
+  let component: LegallensComponent;
+  let fixture: ComponentFixture<LegallensComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SansanaComponent]
+      imports: [LegallensComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(SansanaComponent);
+    fixture = TestBed.createComponent(LegallensComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

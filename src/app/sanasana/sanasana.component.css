@@ -1,7 +1,7 @@
 @import url(https://fonts.cdnfonts.com/css/im-fell-french-canon-2);
 
 .hero {
-    background-image: url('/assets/images/lustre.png');
+    background-image: url('/assets/images/sanasanaintro.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,14 +12,14 @@
 }
 
 .intro {
-    color: rgb(11, 106, 13);
+    color: rgb(11, 104, 106);
     font-family: 'IM FELL French Canon', sans-serif;
     text-align: center;
 }
 
 
 .meat {
-    color: rgb(11, 106, 13);
+    color: rgb(11, 104, 106);
     font-family: 'IM FELL French Canon', sans-serif;
     text-align: center;
 }

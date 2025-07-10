@@ -95,6 +95,7 @@
     justify-content: center;
     /* Ensures columns are spaced out */
     gap: 1rem;
+    flex-wrap: wrap;
     
 }
 
@@ -102,6 +103,33 @@
  text-align: center;
  
     /* Centers all content in the column */
+}
+
+.sidebyside {
+    display: flex;
+    justify-content: center;
+    /* Ensures columns are spaced out */
+    gap: 1rem;
+    flex-wrap: wrap;
+    
+
+}
+
+.sidebyside img {
+    width: 500px;
+    height: 315px;
+    object-fit: cover;
+    border-radius: 0px;         /* makes it rectangular */
+    border: none;   
+
+}
+
+.image-match {
+    width: 500px;
+    height: 315px;
+    object-fit: cover;
+    border-radius: 0px;         /* makes it rectangular */
+    border: none;    
 }
 
 .servicebar img {
@@ -154,35 +182,6 @@ button a {
     
 }
 
-.companybar {
-    padding: 100px 100px;
-    text-align: center;
-    font-family: 'Gulyana', sans-serif;
-    color: #d24e01;
-    background-color: #ffead1;
-    border: solid 3px #d24e01;
-    justify-content: space-between;
-    padding: 0px 10px;
-
-}
-
-.styled-link {
-    align-items: center;
-    text-decoration: none;
-    color: #d24e01;
-
-}
-
-.companybar {
-    display: flex;
-}
-
-.companybar img {
-    width: 20%;
-    height: 50%;
-    border: 3px solid #ccc;
-
-}
 
 
 @media (max-width: 1024px) {
@@ -228,9 +227,6 @@ button a {
         font-size: 20px;
     }
 
-    .sbar2 {
-        padding: 0px;
-    }
 
     .sidebyside {
         display: block;
@@ -262,14 +258,10 @@ button a {
 
     }
 
-
-    .companybar {
-        padding: 50px 50px;
+    .sbar iframe {
+        width: 100%;
     }
 
-    .sidebyside {
-        padding: 10px;
-    }
 
     .foot-text {
         padding: 50px 0px;
