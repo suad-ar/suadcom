@@ -17,11 +17,24 @@
     text-align: center;
 }
 
+.intro h3 {
+    font-style: italic;
+}
 
 .meat {
     color: rgb(11, 106, 13);
     font-family: 'IM FELL French Canon', sans-serif;
     text-align: center;
+}
+
+.meat p {
+    font-size: 20px;
+}
+
+.meat h1 {
+    font-size: 40px;
+    
+
 }
 
 .sidebyside {

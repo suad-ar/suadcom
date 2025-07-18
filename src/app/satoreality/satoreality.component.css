@@ -1,0 +1,61 @@
+@import url(https://fonts.cdnfonts.com/css/im-fell-french-canon-2);
+
+.hero {
+    background-image: url('/assets/images/sato.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    color: rgb(30, 34, 97);
+    font-family: 'IM FELL French Canon', sans-serif;
+    text-align: center;
+}
+
+.intro h3 {
+    font-style: italic;
+}
+
+.meat {
+    color: rgb(30, 34, 97);
+    font-family: 'IM FELL French Canon', sans-serif;
+    text-align: center;
+}
+
+.meat p {
+    font-size: 20px;
+}
+
+.meat h1 {
+    font-size: 40px;
+    
+
+}
+
+.sidebyside {
+    display: flex;
+    justify-content: center;
+    /* Ensures columns are spaced out */
+    gap: 1rem;
+    flex-wrap: wrap;
+    
+
+}
+
+.sidebyside img {
+    width: 500px;
+    height: 315px;
+    object-fit: cover;
+    border-radius: 0px;         /* makes it rectangular */
+    border: none;   
+
+}
+
+.menu {
+    text-align: center;
+}
